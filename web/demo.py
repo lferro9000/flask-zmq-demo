@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 from flask import Flask
-from flask.ext.zmq import ZMQ
+from flask_zmq import ZMQ
 from config import DefaultConfig
 
 

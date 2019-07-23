@@ -11,7 +11,7 @@ def main():
     while True:
         pyobj = s.recv_pyobj()
         if pyobj:
-            print pyobj['key']
+            print(pyobj['key'])
 
 
 if __name__ == '__main__':
